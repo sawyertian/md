@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Headline
 
-You can use the [editor on GitHub](https://github.com/sawyertian/md/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+> An awesome project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 而积极
+* 我 
+* 我哈哈
 
-### Markdown
+* [首页](guide)
+* [指南](zh-cn/guide)
+* [自定义加载的文件](summary)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# 一级标题0
 
-# Header 1
-## Header 2
-### Header 3
+不会显示在侧边栏
 
-- Bulleted
-- List
+# 一级标题1
 
-1. Numbered
-2. List
+显示
 
-**Bold** and _Italic_ and `Code` text
+## 二级标题1
 
-[Link](url) and ![Image](src)
-```
+显示
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### 三级标题1
 
-### Jekyll Themes
+设置的 subMaxLevel: 2 ，故三级标题不显示
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sawyertian/md/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# 一级标题2
 
-### Support or Contact
+显示
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## 二级标题2{docsify-ignore}
+
+{docsify-ignore} 省略当前标题
+
+# 一级标题3{docsify-ignore-all}
+
+{docsify-ignore-all} 省略其下所有标题
+
+## 二级标题3
+
+显示
